@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elbanan IPND Class notes</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400italic' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<div class="topbar">
+    <div class="maintitle"> Elbanan's IPND Class Notes</div>
+
+</div>
+
+<div class="menubar">
+    <a href="#section1" class="menuitem" > Stage 0 </a>
+    <a href="#section2" class="menuitem" > Stage 1 - part I </a>
+    <a href="#section3" class="menuitem" > Stage 1 - part II </a>
+    <a href="#about" class="menuitem" > About Me </a>
+
+</div>
+
+
+
+
+    <div id= "section1" class="lessonsection">
+        <div  class="sectiontitle1"> Stage 0 : Getting started - Important Concepts </div>
+        <div class="sectioncontent">
+            <div class="sectionimage">
+                <img class = "image" src="images/internet.jpg" alt="browser address bar image">
+            </div>
+
+            <div class="sectiontext">
+                We learned what the internet is compased of. Internet is composed of mutliple pages written in a common language called
+                 <abbr title = "HyperText Markup Lanuage"><b>HTML</b></abbr>.These pages are stored on dedicated computers called <b>servers</b>. We use browsers installed on our computers to view pages stored on these servers (e.g. www.udacity.com). <br><br>
+                HTML is composed of different components called <b>elements</b>. These elements usually have an <b>opening tag, a closing tag and content </b> in between. Some tags don't require closing tags (e.g. "br") and thus called <b>void tags</b>. HTML tags must be written in the correct syntax as computers are stupid and will not correct our mistakes based on our intentions. <br><br>
+                It is worth mentioning that <b>Block</b> tags create an imaginary outline around the contents that can be customized. examples for it is the "p" tag. On the other hand, <b>Inline</b> tags don't create that imaginary cotainer. Examples for these are "br", "img" and "b" tags.
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div id= "section2" class="lessonsection">
+        <div class="sectiontitle2"> Stage 1 - part I : HTML </div>
+        <div class="sectioncontent">
+            <div class="sectionimage">
+                <img class = "image" src="images/html.jpg" alt="HTTP image">
+            </div>
+            <div class="sectiontext">
+                As mentioned earlier, HTML is the main building language of webpages. It can be considered as the tool that lays the foundations and parts of the new house (i.e. New webpage).<br>
+                HTML has certain structure including : <b>&lt;html&gt;</b> to define that the langauge used is HTML , <b>&lt;head&gt;</b> into which title and inportant linked files (e.g. CSS) are linked and <b>&lt;body&gt;</b> which will have the main bulk of code for our webpage.<br><br>
+                Elements within a webpage follow a tree like structure in their coding starting with larger (container) to smaller individual elements.However, all elements, including text, images, videos and links, are housed within rectangular compartments regardless of the shape of the object.<br><br>
+                To wase the format and use afterwards, each element (or group of elements) should be identified with a unique identifier called <b>class</b> which will be used to refer to this element anytime. For exmple, class of div can be assigned like that : <b>&lt;div class = "value" &gt;</b>.
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id= "section3" class="lessonsection">
+        <div class="sectiontitle3"> Stage 1 - part II : CSS </div>
+        <div class="sectioncontent">
+            <div class="sectionimage">
+                <img class = "image" src="images/css.jpg" alt="CSS image">
+            </div>
+            <div class="sectiontext">
+                As HTML lays the foundations of the new page, <abbr>title = "Cascade Style Sheet"><b>CSS</b></abbr> determines the look/<b>style</b> of the webpage elements including but not limited to : font, color, size, etc. CSS code is most commonly stored into a separate file accopmanying the website with extension .css. For CSS data to load, CSs file has to be linked to the webpage of interest by using the following code in the &lt;head&gt; section :<br><br>
+                <b>&lt;link rel="stylesheet" type="text/css" href="file location"&gt;</b><br>
+                <br>
+                Each element's style can be customized by using the unique element id <b>"class"</b> from HTML code using the following structure : <br><br>
+             <b>.element class {<br />
+                style data ;<br />}</b>
+            </div>
+        </div>
+    </div>
+
+
+
+<div id="about" class="about">
+     <h4> About Me </h4>
+<p> I am a radiologist with a great interest in computer programming and technology. I like to code in my free time and learn new langauges that can be applied to healthcare improvement.</p>
+
+
+</div>
+
+</body>
+
+</html>

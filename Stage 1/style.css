@@ -1,0 +1,116 @@
+*{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+@media only screen and (max-width: 1000px) {
+
+img.image {
+    display: block !important ;
+    width: 100%;
+    margin-left: auto !important ;
+    margin-right: auto !important ;
+}
+
+.sectioncontent {
+      flex-direction:  column;
+}
+
+
+.sectiontext {
+      width: 100% !important ;
+         }
+
+}
+
+
+.menubar {
+    font-weight: bold;
+    color: #474E50;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+}
+
+
+.topbar, .menubar {
+    width: 100%;
+    display: flex;
+}
+
+
+.maintitle {
+    width: 100%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 10px;
+    color: #474E50;
+
+}
+
+
+.menuitem {
+    margin-top: 5px;
+    width: 25%;
+    padding: 5px;
+    text-align: center;
+    color:#474E50;
+}
+
+
+.lessonsection {
+    margin-top: 10px;
+}
+
+
+.sectiontitle1 , .sectiontitle2, .sectiontitle3 {
+    width: 100%;
+    font-weight: bold;
+    font-size: 25px;
+    text-align:left;
+    background-color: #939B9E;
+    color: white;
+    padding: 5px;
+}
+
+
+.sectioncontent {
+    width: 100%;
+    display: flex;
+        background-color: #F2F2F2;
+}
+
+
+.sectiontext {
+    width: 60%;
+    font-size: 15px;
+    text-align: justify;
+    padding: 10px;
+}
+
+
+.sectionimage {
+    padding: 10px;
+}
+
+
+img.image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.about{
+    margin-top: 20px;
+    width:100%;
+    font-size: 15px;
+    background-color: rgba(146, 207, 241, 0.12);
+
+}
+
